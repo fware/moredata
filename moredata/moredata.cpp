@@ -16,11 +16,6 @@
 using namespace std;
 using namespace cv;
 
-static void onMouse(int event, int x, int y, int, void*);
-//Mat warping(Mat image, Size warped_image_size, vector< Point2f> srcPoints, vector< Point2f> dstPoints);
-std::vector<std::string> split(std::string strToSplit, char delimeter);
-
-
 int main(int argc, char** argv)
 {
     CommandLineParser parser(argc, argv, "{@input| ../data/right.jpg |}");
